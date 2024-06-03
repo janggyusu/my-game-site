@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Hangman Game</h1>
+    <div id="game-container">
+        <p id="word"></p>
+        <div id="keyboard"></div>
+        <p id="message"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+페이지 아래로 스크롤하여 Commit new file 버튼을 클릭합니다.
+CSS 파일 생성:
+
+저장소 페이지로 돌아가서 Add file > Create new file을 다시 선택합니다.
+파일 이름을 styles.css로 입력하고 아래의 코드를 추가합니다.
+css
+코드 복사
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#game-container {
+    margin-top: 50px;
+}
+
+#keyboard button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
